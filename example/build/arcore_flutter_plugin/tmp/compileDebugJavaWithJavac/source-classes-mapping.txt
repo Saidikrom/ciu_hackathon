@@ -1,0 +1,2 @@
+com/difrancescogianmarco/arcore_flutter_plugin/BuildConfig.java
+ com.difrancescogianmarco.arcore_flutter_plugin.BuildConfig

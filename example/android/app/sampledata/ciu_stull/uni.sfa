@@ -1,0 +1,109 @@
+{
+  materials: [
+    {
+      name: 'initialShadingGroup.001',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.80000000000000004,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.093865000000000004,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'wire_060134005',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.58430000000000004,
+            0.58430000000000004,
+            0.58430000000000004,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.242536,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'wire_087225143',
+      parameters: [
+        {
+          baseColor: '3743model_leather_brown_2_rf',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.242536,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/ciu_stull/uni.obj',
+    name: 'uni',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata/ciu_stull\\3743model_leather_brown_2_rf.jpg',
+      name: '3743model_leather_brown_2_rf',
+      pipeline_name: '3743model_leather_brown_2_rf.jpg',
+    },
+    {
+      file: 'sampledata/ciu_stull\\3743model_wrinkles_normal.jpg',
+      name: '3743model_wrinkles_normal',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: '3743model_wrinkles_normal.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

@@ -1,0 +1,159 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.flutter_application_2"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->E:\univer\arcore_3d\example\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->E:\univer\arcore_3d\example\android\app\src\debug\AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->[:arcore_flutter_plugin] E:\univer\arcore_3d\example\build\arcore_flutter_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-65
+15-->[:arcore_flutter_plugin] E:\univer\arcore_3d\example\build\arcore_flutter_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-62
+16    <!--
+17         Indicates that app requires ARCore ("AR Required"). Ensures app is only
+18         visible in the Google Play Store on devices that support ARCore.
+19    -->
+20    <uses-feature android:name="android.hardware.camera.ar" /> <!-- Sceneform requires OpenGL ES 3.0 or later. -->
+20-->[:arcore_flutter_plugin] E:\univer\arcore_3d\example\build\arcore_flutter_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-63
+20-->[:arcore_flutter_plugin] E:\univer\arcore_3d\example\build\arcore_flutter_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:13:19-60
+21    <uses-feature
+21-->[:arcore_flutter_plugin] E:\univer\arcore_3d\example\build\arcore_flutter_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-18:35
+22        android:glEsVersion="0x00030000"
+22-->[:arcore_flutter_plugin] E:\univer\arcore_3d\example\build\arcore_flutter_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-41
+23        android:required="true" />
+23-->[:arcore_flutter_plugin] E:\univer\arcore_3d\example\build\arcore_flutter_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-32
+24    <!--
+25 io.flutter.app.FlutterApplication is an android.app.Application that
+26         calls FlutterMain.startInitialization(this); in its onCreate method.
+27         In most cases you can leave this as-is, but you if you want to provide
+28         additional functionality it is fine to subclass or reimplement
+29         FlutterApplication and put your custom class here.
+30    -->
+31    <application
+31-->E:\univer\arcore_3d\example\android\app\src\main\AndroidManifest.xml:8:5-30:19
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.7.0] C:\Users\Saidikrom\.gradle\caches\transforms-3\37619df975c627b28d30588d31fa5d2e\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:extractNativeLibs="false"
+35        android:icon="@mipmap/ic_launcher"
+35-->E:\univer\arcore_3d\example\android\app\src\main\AndroidManifest.xml:11:9-43
+36        android:label="example" >
+36-->E:\univer\arcore_3d\example\android\app\src\main\AndroidManifest.xml:10:9-32
+37        <activity
+37-->E:\univer\arcore_3d\example\android\app\src\main\AndroidManifest.xml:12:9-24:20
+38            android:name="com.muhammadali.example.MainActivity"
+38-->E:\univer\arcore_3d\example\android\app\src\main\AndroidManifest.xml:13:13-41
+39            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+39-->E:\univer\arcore_3d\example\android\app\src\main\AndroidManifest.xml:17:13-163
+40            android:hardwareAccelerated="true"
+40-->E:\univer\arcore_3d\example\android\app\src\main\AndroidManifest.xml:18:13-47
+41            android:launchMode="singleTop"
+41-->E:\univer\arcore_3d\example\android\app\src\main\AndroidManifest.xml:14:13-43
+42            android:screenOrientation="portrait"
+42-->E:\univer\arcore_3d\example\android\app\src\main\AndroidManifest.xml:16:13-49
+43            android:theme="@style/LaunchTheme"
+43-->E:\univer\arcore_3d\example\android\app\src\main\AndroidManifest.xml:15:13-47
+44            android:windowSoftInputMode="adjustResize" >
+44-->E:\univer\arcore_3d\example\android\app\src\main\AndroidManifest.xml:19:13-55
+45            <intent-filter>
+45-->E:\univer\arcore_3d\example\android\app\src\main\AndroidManifest.xml:20:13-23:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->E:\univer\arcore_3d\example\android\app\src\main\AndroidManifest.xml:21:17-68
+46-->E:\univer\arcore_3d\example\android\app\src\main\AndroidManifest.xml:21:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->E:\univer\arcore_3d\example\android\app\src\main\AndroidManifest.xml:22:17-76
+48-->E:\univer\arcore_3d\example\android\app\src\main\AndroidManifest.xml:22:27-74
+49            </intent-filter>
+50        </activity>
+51        <!--
+52             Don't delete the meta-data below.
+53             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+54        -->
+55        <meta-data
+55-->E:\univer\arcore_3d\example\android\app\src\main\AndroidManifest.xml:27:9-29:33
+56            android:name="flutterEmbedding"
+56-->E:\univer\arcore_3d\example\android\app\src\main\AndroidManifest.xml:28:13-44
+57            android:value="2" />
+57-->E:\univer\arcore_3d\example\android\app\src\main\AndroidManifest.xml:29:13-30
+58        <!--
+59             Indicates that app requires ARCore ("AR Required"). Causes Google
+60             Play Store to download and install ARCore when the app is installed.
+61        -->
+62        <meta-data
+62-->[:arcore_flutter_plugin] E:\univer\arcore_3d\example\build\arcore_flutter_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:26:9-28:40
+63            android:name="com.google.ar.core"
+63-->[:arcore_flutter_plugin] E:\univer\arcore_3d\example\build\arcore_flutter_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-46
+64            android:value="optional" />
+64-->[:arcore_flutter_plugin] E:\univer\arcore_3d\example\build\arcore_flutter_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-37
+65
+66        <provider
+66-->[:share_plus] E:\univer\arcore_3d\example\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+67            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+67-->[:share_plus] E:\univer\arcore_3d\example\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-77
+68            android:authorities="com.example.flutter_application_2.flutter.share_provider"
+68-->[:share_plus] E:\univer\arcore_3d\example\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+69            android:exported="false"
+69-->[:share_plus] E:\univer\arcore_3d\example\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+70            android:grantUriPermissions="true" >
+70-->[:share_plus] E:\univer\arcore_3d\example\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+71            <meta-data
+71-->[:share_plus] E:\univer\arcore_3d\example\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:68
+72                android:name="android.support.FILE_PROVIDER_PATHS"
+72-->[:share_plus] E:\univer\arcore_3d\example\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+73                android:resource="@xml/flutter_share_file_paths" />
+73-->[:share_plus] E:\univer\arcore_3d\example\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-65
+74        </provider>
+75
+76        <activity
+76-->[:url_launcher_android] E:\univer\arcore_3d\example\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+77            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+77-->[:url_launcher_android] E:\univer\arcore_3d\example\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+78            android:exported="false"
+78-->[:url_launcher_android] E:\univer\arcore_3d\example\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+79            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+79-->[:url_launcher_android] E:\univer\arcore_3d\example\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+80
+81        <uses-library
+81-->[androidx.window:window:1.0.0-beta04] C:\Users\Saidikrom\.gradle\caches\transforms-3\ffe87a4d1fb8b0ef7d4030fdd1237b0f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+82            android:name="androidx.window.extensions"
+82-->[androidx.window:window:1.0.0-beta04] C:\Users\Saidikrom\.gradle\caches\transforms-3\ffe87a4d1fb8b0ef7d4030fdd1237b0f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+83            android:required="false" />
+83-->[androidx.window:window:1.0.0-beta04] C:\Users\Saidikrom\.gradle\caches\transforms-3\ffe87a4d1fb8b0ef7d4030fdd1237b0f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+84        <uses-library
+84-->[androidx.window:window:1.0.0-beta04] C:\Users\Saidikrom\.gradle\caches\transforms-3\ffe87a4d1fb8b0ef7d4030fdd1237b0f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+85            android:name="androidx.window.sidecar"
+85-->[androidx.window:window:1.0.0-beta04] C:\Users\Saidikrom\.gradle\caches\transforms-3\ffe87a4d1fb8b0ef7d4030fdd1237b0f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+86            android:required="false" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+86-->[androidx.window:window:1.0.0-beta04] C:\Users\Saidikrom\.gradle\caches\transforms-3\ffe87a4d1fb8b0ef7d4030fdd1237b0f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+87        <meta-data
+87-->[com.google.ar:core:1.13.0] C:\Users\Saidikrom\.gradle\caches\transforms-3\00efaa73914ac9b01062d9db22d08063\transformed\jetified-core-1.13.0\AndroidManifest.xml:33:9-35:41
+88            android:name="com.google.ar.core.min_apk_version"
+88-->[com.google.ar:core:1.13.0] C:\Users\Saidikrom\.gradle\caches\transforms-3\00efaa73914ac9b01062d9db22d08063\transformed\jetified-core-1.13.0\AndroidManifest.xml:34:13-62
+89            android:value="190919000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+89-->[com.google.ar:core:1.13.0] C:\Users\Saidikrom\.gradle\caches\transforms-3\00efaa73914ac9b01062d9db22d08063\transformed\jetified-core-1.13.0\AndroidManifest.xml:35:13-38
+90        <activity
+90-->[com.google.ar:core:1.13.0] C:\Users\Saidikrom\.gradle\caches\transforms-3\00efaa73914ac9b01062d9db22d08063\transformed\jetified-core-1.13.0\AndroidManifest.xml:37:9-43:80
+91            android:name="com.google.ar.core.InstallActivity"
+91-->[com.google.ar:core:1.13.0] C:\Users\Saidikrom\.gradle\caches\transforms-3\00efaa73914ac9b01062d9db22d08063\transformed\jetified-core-1.13.0\AndroidManifest.xml:38:13-62
+92            android:configChanges="keyboardHidden|orientation|screenSize"
+92-->[com.google.ar:core:1.13.0] C:\Users\Saidikrom\.gradle\caches\transforms-3\00efaa73914ac9b01062d9db22d08063\transformed\jetified-core-1.13.0\AndroidManifest.xml:39:13-74
+93            android:excludeFromRecents="true"
+93-->[com.google.ar:core:1.13.0] C:\Users\Saidikrom\.gradle\caches\transforms-3\00efaa73914ac9b01062d9db22d08063\transformed\jetified-core-1.13.0\AndroidManifest.xml:40:13-46
+94            android:exported="false"
+94-->[com.google.ar:core:1.13.0] C:\Users\Saidikrom\.gradle\caches\transforms-3\00efaa73914ac9b01062d9db22d08063\transformed\jetified-core-1.13.0\AndroidManifest.xml:41:13-37
+95            android:launchMode="singleTop"
+95-->[com.google.ar:core:1.13.0] C:\Users\Saidikrom\.gradle\caches\transforms-3\00efaa73914ac9b01062d9db22d08063\transformed\jetified-core-1.13.0\AndroidManifest.xml:42:13-43
+96            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+96-->[com.google.ar:core:1.13.0] C:\Users\Saidikrom\.gradle\caches\transforms-3\00efaa73914ac9b01062d9db22d08063\transformed\jetified-core-1.13.0\AndroidManifest.xml:43:13-77
+97    </application>
+98
+99</manifest>

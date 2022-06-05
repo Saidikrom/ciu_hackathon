@@ -1,0 +1,79 @@
+{
+  materials: [
+    {
+      name: 'initialShadingGroup',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.80000000000000004,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.093865000000000004,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'wire_255255255',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.242536,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/krovat/krovat.obj',
+    name: 'krovat',
+    recenter: 'root',
+    scale: 0.47180100000000003,
+  },
+  samplers: [
+    {
+      file: 'sampledata/krovat\\FabricPlain0077_5_S.jpg',
+      name: 'FabricPlain0077_5_S',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'FabricPlain0077_5_S.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

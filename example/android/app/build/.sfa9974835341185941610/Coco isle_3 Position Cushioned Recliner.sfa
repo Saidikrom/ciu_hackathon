@@ -1,0 +1,58 @@
+{
+  materials: [
+    {
+      name: 'wire_000000000',
+      parameters: [
+        {
+          baseColor: 'AM_123_WRINKLES_002 2',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.242536,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/Coco isle_3 Position Cushioned Recliner.obj',
+    name: 'Coco isle_3 Position Cushioned Recliner',
+    recenter: 'root',
+    scale: 0.001291,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\maps\\AM_123_WRINKLES_002 2.jpg',
+      name: 'AM_123_WRINKLES_002 2',
+      pipeline_name: 'maps\\AM_123_WRINKLES_002 2.jpg',
+    },
+    {
+      file: 'sampledata\\maps\\sofa_main_bump.jpg',
+      name: 'sofa_main_bump',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'maps\\sofa_main_bump.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

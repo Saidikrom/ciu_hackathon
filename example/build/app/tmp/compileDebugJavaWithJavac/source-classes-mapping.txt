@@ -1,0 +1,242 @@
+com/muhammadali/example/BuildConfig.java
+ com.muhammadali.example.BuildConfig
+androidx/vectordrawable/R.java
+ androidx.vectordrawable.R
+ androidx.vectordrawable.R$attr
+ androidx.vectordrawable.R$color
+ androidx.vectordrawable.R$dimen
+ androidx.vectordrawable.R$drawable
+ androidx.vectordrawable.R$id
+ androidx.vectordrawable.R$integer
+ androidx.vectordrawable.R$layout
+ androidx.vectordrawable.R$string
+ androidx.vectordrawable.R$style
+ androidx.vectordrawable.R$styleable
+androidx/cursoradapter/R.java
+ androidx.cursoradapter.R
+androidx/lifecycle/livedata/core/R.java
+ androidx.lifecycle.livedata.core.R
+com/google/ar/sceneform/rendering/R.java
+ com.google.ar.sceneform.rendering.R
+ com.google.ar.sceneform.rendering.R$drawable
+ com.google.ar.sceneform.rendering.R$id
+ com.google.ar.sceneform.rendering.R$layout
+ com.google.ar.sceneform.rendering.R$raw
+ com.google.ar.sceneform.rendering.R$string
+androidx/lifecycle/livedata/R.java
+ androidx.lifecycle.livedata.R
+androidx/appcompat/resources/R.java
+ androidx.appcompat.resources.R
+ androidx.appcompat.resources.R$attr
+ androidx.appcompat.resources.R$color
+ androidx.appcompat.resources.R$dimen
+ androidx.appcompat.resources.R$drawable
+ androidx.appcompat.resources.R$id
+ androidx.appcompat.resources.R$integer
+ androidx.appcompat.resources.R$layout
+ androidx.appcompat.resources.R$string
+ androidx.appcompat.resources.R$style
+ androidx.appcompat.resources.R$styleable
+androidx/appcompat/R.java
+ androidx.appcompat.R
+ androidx.appcompat.R$anim
+ androidx.appcompat.R$attr
+ androidx.appcompat.R$bool
+ androidx.appcompat.R$color
+ androidx.appcompat.R$dimen
+ androidx.appcompat.R$drawable
+ androidx.appcompat.R$id
+ androidx.appcompat.R$integer
+ androidx.appcompat.R$interpolator
+ androidx.appcompat.R$layout
+ androidx.appcompat.R$string
+ androidx.appcompat.R$style
+ androidx.appcompat.R$styleable
+com/difrancescogianmarco/arcore_flutter_plugin/R.java
+ com.difrancescogianmarco.arcore_flutter_plugin.R
+ com.difrancescogianmarco.arcore_flutter_plugin.R$anim
+ com.difrancescogianmarco.arcore_flutter_plugin.R$attr
+ com.difrancescogianmarco.arcore_flutter_plugin.R$bool
+ com.difrancescogianmarco.arcore_flutter_plugin.R$color
+ com.difrancescogianmarco.arcore_flutter_plugin.R$dimen
+ com.difrancescogianmarco.arcore_flutter_plugin.R$drawable
+ com.difrancescogianmarco.arcore_flutter_plugin.R$id
+ com.difrancescogianmarco.arcore_flutter_plugin.R$integer
+ com.difrancescogianmarco.arcore_flutter_plugin.R$interpolator
+ com.difrancescogianmarco.arcore_flutter_plugin.R$layout
+ com.difrancescogianmarco.arcore_flutter_plugin.R$raw
+ com.difrancescogianmarco.arcore_flutter_plugin.R$string
+ com.difrancescogianmarco.arcore_flutter_plugin.R$style
+ com.difrancescogianmarco.arcore_flutter_plugin.R$styleable
+com/google/ar/core/R.java
+ com.google.ar.core.R
+ com.google.ar.core.R$id
+ com.google.ar.core.R$layout
+ com.google.ar.core.R$raw
+ com.google.ar.core.R$string
+androidx/lifecycle/R.java
+ androidx.lifecycle.R
+androidx/arch/core/R.java
+ androidx.arch.core.R
+androidx/fragment/R.java
+ androidx.fragment.R
+ androidx.fragment.R$attr
+ androidx.fragment.R$color
+ androidx.fragment.R$dimen
+ androidx.fragment.R$drawable
+ androidx.fragment.R$id
+ androidx.fragment.R$integer
+ androidx.fragment.R$layout
+ androidx.fragment.R$string
+ androidx.fragment.R$style
+ androidx.fragment.R$styleable
+com/google/ar/sceneform/assets/R.java
+ com.google.ar.sceneform.assets.R
+androidx/savedstate/R.java
+ androidx.savedstate.R
+androidx/customview/R.java
+ androidx.customview.R
+ androidx.customview.R$attr
+ androidx.customview.R$color
+ androidx.customview.R$dimen
+ androidx.customview.R$drawable
+ androidx.customview.R$id
+ androidx.customview.R$integer
+ androidx.customview.R$layout
+ androidx.customview.R$string
+ androidx.customview.R$style
+ androidx.customview.R$styleable
+androidx/loader/R.java
+ androidx.loader.R
+ androidx.loader.R$attr
+ androidx.loader.R$color
+ androidx.loader.R$dimen
+ androidx.loader.R$drawable
+ androidx.loader.R$id
+ androidx.loader.R$integer
+ androidx.loader.R$layout
+ androidx.loader.R$string
+ androidx.loader.R$style
+ androidx.loader.R$styleable
+androidx/interpolator/R.java
+ androidx.interpolator.R
+androidx/core/R.java
+ androidx.core.R
+ androidx.core.R$attr
+ androidx.core.R$color
+ androidx.core.R$dimen
+ androidx.core.R$drawable
+ androidx.core.R$id
+ androidx.core.R$integer
+ androidx.core.R$layout
+ androidx.core.R$string
+ androidx.core.R$style
+ androidx.core.R$styleable
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+androidx/activity/R.java
+ androidx.activity.R
+ androidx.activity.R$attr
+ androidx.activity.R$color
+ androidx.activity.R$dimen
+ androidx.activity.R$drawable
+ androidx.activity.R$id
+ androidx.activity.R$integer
+ androidx.activity.R$layout
+ androidx.activity.R$string
+ androidx.activity.R$style
+ androidx.activity.R$styleable
+com/google/ar/sceneform/ux/R.java
+ com.google.ar.sceneform.ux.R
+ com.google.ar.sceneform.ux.R$anim
+ com.google.ar.sceneform.ux.R$attr
+ com.google.ar.sceneform.ux.R$bool
+ com.google.ar.sceneform.ux.R$color
+ com.google.ar.sceneform.ux.R$dimen
+ com.google.ar.sceneform.ux.R$drawable
+ com.google.ar.sceneform.ux.R$id
+ com.google.ar.sceneform.ux.R$integer
+ com.google.ar.sceneform.ux.R$interpolator
+ com.google.ar.sceneform.ux.R$layout
+ com.google.ar.sceneform.ux.R$raw
+ com.google.ar.sceneform.ux.R$string
+ com.google.ar.sceneform.ux.R$style
+ com.google.ar.sceneform.ux.R$styleable
+androidx/drawerlayout/R.java
+ androidx.drawerlayout.R
+ androidx.drawerlayout.R$attr
+ androidx.drawerlayout.R$color
+ androidx.drawerlayout.R$dimen
+ androidx.drawerlayout.R$drawable
+ androidx.drawerlayout.R$id
+ androidx.drawerlayout.R$integer
+ androidx.drawerlayout.R$layout
+ androidx.drawerlayout.R$string
+ androidx.drawerlayout.R$style
+ androidx.drawerlayout.R$styleable
+androidx/versionedparcelable/R.java
+ androidx.versionedparcelable.R
+androidx/viewpager/R.java
+ androidx.viewpager.R
+ androidx.viewpager.R$attr
+ androidx.viewpager.R$color
+ androidx.viewpager.R$dimen
+ androidx.viewpager.R$drawable
+ androidx.viewpager.R$id
+ androidx.viewpager.R$integer
+ androidx.viewpager.R$layout
+ androidx.viewpager.R$string
+ androidx.viewpager.R$style
+ androidx.viewpager.R$styleable
+com/google/ar/sceneform/R.java
+ com.google.ar.sceneform.R
+ com.google.ar.sceneform.R$anim
+ com.google.ar.sceneform.R$attr
+ com.google.ar.sceneform.R$bool
+ com.google.ar.sceneform.R$color
+ com.google.ar.sceneform.R$dimen
+ com.google.ar.sceneform.R$drawable
+ com.google.ar.sceneform.R$id
+ com.google.ar.sceneform.R$integer
+ com.google.ar.sceneform.R$interpolator
+ com.google.ar.sceneform.R$layout
+ com.google.ar.sceneform.R$raw
+ com.google.ar.sceneform.R$string
+ com.google.ar.sceneform.R$style
+ com.google.ar.sceneform.R$styleable
+com/muhammadali/example/R.java
+ com.muhammadali.example.R
+ com.muhammadali.example.R$anim
+ com.muhammadali.example.R$attr
+ com.muhammadali.example.R$bool
+ com.muhammadali.example.R$color
+ com.muhammadali.example.R$dimen
+ com.muhammadali.example.R$drawable
+ com.muhammadali.example.R$id
+ com.muhammadali.example.R$integer
+ com.muhammadali.example.R$interpolator
+ com.muhammadali.example.R$layout
+ com.muhammadali.example.R$mipmap
+ com.muhammadali.example.R$raw
+ com.muhammadali.example.R$string
+ com.muhammadali.example.R$style
+ com.muhammadali.example.R$styleable
+com/google/android/filament/R.java
+ com.google.android.filament.R
+ com.google.android.filament.R$string
+androidx/core/ktx/R.java
+ androidx.core.ktx.R
+androidx/lifecycle/viewmodel/R.java
+ androidx.lifecycle.viewmodel.R
+androidx/vectordrawable/animated/R.java
+ androidx.vectordrawable.animated.R
+ androidx.vectordrawable.animated.R$attr
+ androidx.vectordrawable.animated.R$color
+ androidx.vectordrawable.animated.R$dimen
+ androidx.vectordrawable.animated.R$drawable
+ androidx.vectordrawable.animated.R$id
+ androidx.vectordrawable.animated.R$integer
+ androidx.vectordrawable.animated.R$layout
+ androidx.vectordrawable.animated.R$string
+ androidx.vectordrawable.animated.R$style
+ androidx.vectordrawable.animated.R$styleable

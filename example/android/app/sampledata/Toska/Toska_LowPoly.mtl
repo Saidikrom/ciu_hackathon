@@ -1,0 +1,25 @@
+# Blender MTL File: 'None'
+# Material Count: 2
+
+newmtl Body_Sofa
+Ns 10.000002
+Ka 1.000000 1.000000 1.000000
+Kd 0.984300 0.772500 0.121600
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Bump sofa_nrm.png
+map_Kd Leather_Brown.jpeg
+
+newmtl Legs
+Ns 10.000002
+Ka 1.000000 1.000000 1.000000
+Kd 0.039200 0.039200 0.039200
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd Leather_Brown.jpeg

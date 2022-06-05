@@ -1,0 +1,148 @@
+{
+  materials: [
+    {
+      name: 'initialShadingGroup.001',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.80000000000000004,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.093865000000000004,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'wire_086086086.002',
+      parameters: [
+        {
+          baseColor: 'AK_Fasad_displace',
+        },
+        {
+          baseColorTint: [
+            0.33729999999999999,
+            0.33729999999999999,
+            0.33729999999999999,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.242536,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'wire_135059008.002',
+      parameters: [
+        {
+          baseColor: 'AK_Fasad_displace',
+        },
+        {
+          baseColorTint: [
+            0.52939999999999998,
+            0.23139999999999999,
+            0.031399999999999997,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.242536,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'wire_227153153.002',
+      parameters: [
+        {
+          baseColor: 'a',
+        },
+        {
+          baseColorTint: [
+            0.89019999999999999,
+            0.59999999999999998,
+            0.59999999999999998,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.242536,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/Art/art.obj',
+    name: 'art',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata/Art\\AK_Fasad_displace.jpg',
+      name: 'AK_Fasad_displace',
+      pipeline_name: 'AK_Fasad_displace.jpg',
+    },
+    {
+      file: 'sampledata/Art\\a.jpg',
+      name: 'a',
+      pipeline_name: 'a.jpg',
+    },
+    {
+      file: 'sampledata/Art\\Art_branch_bump.jpg',
+      name: 'Art_branch_bump',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'Art_branch_bump.jpg',
+    },
+    {
+      file: 'sampledata/Art\\Art_Komod_Low_brunch_wire_086086086_Height.jpg',
+      name: 'Art_Komod_Low_brunch_wire_086086086_Height',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'Art_Komod_Low_brunch_wire_086086086_Height.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

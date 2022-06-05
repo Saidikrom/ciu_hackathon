@@ -1,0 +1,118 @@
+{
+  materials: [
+    {
+      name: 'Legs',
+      parameters: [
+        {
+          baseColor: 'Leather_Brown',
+        },
+        {
+          baseColorTint: [
+            0.039199999999999999,
+            0.039199999999999999,
+            0.039199999999999999,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.408248,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Body_Armchair',
+      parameters: [
+        {
+          baseColor: 'Leather_Brown',
+        },
+        {
+          baseColorTint: [
+            0.98429999999999995,
+            0.1216,
+            0.1216,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.408248,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Body_Sofa',
+      parameters: [
+        {
+          baseColor: 'Leather_Brown',
+        },
+        {
+          baseColorTint: [
+            0.98429999999999995,
+            0.77249999999999996,
+            0.1216,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.408248,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/Toska_LowPoly.obj',
+    name: 'Toska_LowPoly',
+    recenter: 'root',
+    scale: 0.001207,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\sofa_nrm.png',
+      name: 'sofa_nrm',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'sofa_nrm.png',
+    },
+    {
+      file: 'sampledata\\Leather_Brown.jpeg',
+      name: 'Leather_Brown',
+      pipeline_name: 'Leather_Brown.jpeg',
+    },
+    {
+      file: 'sampledata\\Chair_nrm.png',
+      name: 'Chair_nrm',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'Chair_nrm.png',
+    },
+  ],
+  version: '0.54:2',
+}
